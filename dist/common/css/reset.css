@@ -1,0 +1,145 @@
+@charset "utf-8";
+
+/* -----------------------------------------------------------------
+Title: reset.css
+Created: 2013-7-3
+Last Modified: 2013-**-**
+------------------------------------------------------------------ */
+
+/*　目次 
+-----------------------------------------------------------------
+
+#01-リセット
+#02-基本タグの定義
+#03-CSSハック
+
+------------------------------------------------------------------ */
+
+/* -----------------------------------------------------------------
+
+#01　リセット
+
+------------------------------------------------------------------ */
+* {
+	font-style: normal;
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+}
+
+html {
+	font-size: 62.5%;
+	line-height: 1.6;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+caption,th {
+	text-align:left;
+}
+
+ol,ul {
+	list-style:none;
+}
+
+fieldset {
+	border: 0;
+}
+
+img {
+	border: 0;
+	vertical-align: bottom;
+}
+
+
+/* -----------------------------------------------------------------
+
+#02　基本タグの定義
+
+------------------------------------------------------------------ */
+body {
+	color: #333;
+	background:url(../images/bg.gif) repeat-x #f0f4f7;
+	font-family:Arial,'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+	text-align:center;
+}
+
+body div{
+	text-align:left;
+}
+	
+
+h1,h2,h3,h4,h5,h6 {
+	font-size: 1em;
+	font-weight: normal;
+}
+
+p {
+	font-size: 1.3em;
+}
+
+address,caption,cite,code,dfn,em,strong,th,var {
+	font-style: normal;
+	font-weight: normal;
+}
+
+a img {
+	border-style: none;
+}
+
+a:link {
+	color:#03C;
+	text-decoration:underline;
+}
+
+a:visited {
+	color:#03C;
+	text-decoration:none;
+}
+
+a:hover {
+	color:#FC0;
+	text-decoration:underline;
+}
+
+
+/* -----------------------------------------------------------------
+
+#03　CSSハック
+
+------------------------------------------------------------------ */
+
+/* Internet Explore用 */
+
+div {
+	zoom: 100%;  
+} 
+
+/* Internet Explore6.0 用 */
+/*ヘッダ部分*/
+* html #contents {
+	margin-top:-2px;
+	text-align: center;
+}
+
+/* clearfix */
+.clearfix:after {
+	content: ".";
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden;
+	overflow:hidden;
+}
+.clearfix {display:inline-block;}
+
+/*hides form IE-mac ¥*/
+* html .clearfix {height: 1%;}
+.clearfix {display:block;}
+/* End hide form IE-mac */
+*:first-child+html #header #headerR #fontsize ul {
+	margin-top: -3px !important;
+}

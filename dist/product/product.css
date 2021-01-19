@@ -1,0 +1,138 @@
+@charset "UTF-8";
+
+/* -----------------------------------------------------------------
+Title: product.css
+Created: 2012-10-19
+Last Modified: 2012-**-**
+------------------------------------------------------------------ */
+
+
+/* 製品案内　ページ内リンク */
+div#wrapper #mainArea #contentsArea .w710 ul.link {
+	overflow:hidden;
+	margin:0 auto 2em auto;
+	width:708px;
+}
+div#wrapper #mainArea #contentsArea .w710 ul.link li {
+	float:left;
+	margin-right:10px;
+}
+
+div#wrapper #mainArea #contentsArea .w710 ul.link02 {
+	overflow:hidden;
+	margin:0 auto 2em auto;
+	width:708px;
+}
+div#wrapper #mainArea #contentsArea .w710 ul.link02 li {
+	float:left;
+	margin-right:8px;
+}
+
+.w710 .productBox {
+	overflow:hidden;
+	margin-bottom:0em;
+}
+.w710 .productBox .image {
+	float:right;
+}
+.w710 .productBox .image10 {
+	float:right;
+	margin-left:10px;
+}
+.w710 .productBox ul {
+	padding-left:10px;
+	padding-top:10px;
+}
+.w710 .productBox ul li {
+	font-size:1.2em;
+	margin-bottom:0.7em;
+}
+
+/* tableのスタイル */
+.w710 .spec table {
+	font-family: 'Roboto', sans-serif;
+	width:710px;
+	border-bottom: 1px solid #CCC;
+	border-left: 1px solid #CCC;
+	margin-bottom: 1em;
+}
+.w710 .spec table th {
+	text-align: center;
+	padding: 2px;
+	background: #F0F0F0;
+	font-size: 1.0em;
+	border-right: 1px solid #CCC;
+	border-top: 1px solid #CCC;
+}
+.w710 .spec table th.important {
+	background-color:#CCC;
+}
+.w710 .spec table td {
+	text-align: center;
+	padding: 2px;
+	font-size: 1.2em;
+	border-right: 1px solid #CCC;
+	border-top: 1px solid #CCC;
+}
+.w710 .spec table td.bgC {
+	color: #BD0244;
+	background: #FCF4F4;
+}
+.w710 .spec table th.bgCR {
+	color: #BD0244!important;
+	background: #FCF4F4!important;
+}
+.w710 .spec table th.bgCG {
+	color: #006600!important;
+	background-color: #EDFBC8!important;
+}
+.w710 .spec table td p {
+	font-size:1.0em;
+}
+
+/* 問い合わせ＆ページトップ */
+.w710 .contactArea {
+	padding:1.0em 0 2.0em 0;
+	overflow:hidden;
+}
+.w710 .contactArea ul {
+	text-align:right;
+	width: 165px;
+	float:right;
+}
+.w710 .contactArea ul li {
+	float:left;
+}
+.w710 .contactArea li.borderLine {
+	border-right:#666 solid 1px;
+	padding-right:10px;
+	margin-right:10px;
+}
+td.w60 {
+	width:60px;
+}
+    .productBox li {list-style: inside;}
+    .productDetail {display: flex;    align-items: center !important;justify-content: space-between;}
+    .productImg {position:relative;width: 120px; height: 120px;overflow: hidden;}
+    .productImg img {position: absolute;width: 100%;top: 50%;left: 50%; transform: translate(-50%, -50%);}
+    .productImg img.height {height: 100%;width: auto;}
+    .profuctTable {flex:1;margin-left: 10px;}
+    .profuctTable table {width: 100% !important;}
+    .profuctTable th, .profuctTable td {text-align: center;}
+    .profuctTable tr:first-child th{font-weight: 900;font-size: 14px}
+    .profuctTable tr:nth-child(2n - 1) {background-color: rgba(0,0,0,0.05);}
+    .productFunction {width: 220px;;display: flex;flex-wrap: wrap;margin-bottom: 10px;margin-left: 10px;}
+    .productFunction li {position: relative; margin-right: 5px;margin-bottom: 5px;width: 45px;height: 45px;border-radius: 3px;}
+    .productFunction li p {position: absolute;top: 50%; left: 50%; transform: translate(-50%, -50%);font-size: 10px;text-align: center;line-height: 1;}
+    .productFunction li.yellow {background-color: yellow;}
+    .productFunction li.orange {background-color: orange;}
+    .productFunction li.red {background-color: red;}
+    .productFunction li.gray{background-color: gray;}
+    .productFunction li.green {background-color: green;}
+    .productFunction li.blue {background-color: #0070C0;}
+    .productFunction li.darkblue {background-color: darkblue;}
+    .productFunction li.skyblue {background-color: skyblue;}
+    .productFunction li.skyblue {background-color: purple;}
+    .productFunction li.white {background-color: white;border: solid 1px #000;width: 43px;height: 43px;}
+    .dataSheetBtn {text-align: center;}
+    .dataSheetBtn a {background-color: #000; color: white; font-weight: 900;padding: 15px 30px;text-decoration: none;font-size: 14px;    display: inline-block;}
