@@ -1,0 +1,11 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#menu {
+	width:230px;
+	float:left;
+	padding-right: 10px;
+	padding-left: 10px;
+	position:absolute;
+	top:-508px;
+}

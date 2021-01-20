@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+/* -----------------------------------------------------------------
+Title: office.css
+Created: 2013-7-3
+Last Modified: 2013-**-**
+------------------------------------------------------------------ */
+
+@import URL("../common/css/reset.css");
+@import URL("../common/css/base.css");
+
+div#contentsArea .map {
+	border:#CCC solid 1px;
+}
+
+div#contentsArea dl.partner {
+}
+div#contentsArea dl.partner dt {
+	padding:0 5px 0 5px;
+	font-weight:bold;
+	font-size:1.4em;
+}
+div#contentsArea dl.partner dd {
+	border-bottom:dotted 1px #CCC;
+	padding:0 0 1.5em 5px;
+	margin:0 0 1.5em 0;
+	font-size:1.2em;
+}
