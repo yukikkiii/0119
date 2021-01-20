@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+/* -----------------------------------------------------------------
+Title: factory.css
+Created: 2013-7-3
+Last Modified: 2013-**-**
+------------------------------------------------------------------ */
+
+@import URL("../../common/css/reset.css");
+@import URL("../../common/css/base.css");
+@import URL("../product.css");
