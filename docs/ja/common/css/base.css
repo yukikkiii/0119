@@ -45,12 +45,12 @@ div#wrapper #header .logo {
 
 div#wrapper #header #gNavi {
 	position:absolute;
+	display: flex;
 	top:74px;
-	left:330px;
-	width:507px;
+	right:0;
 }
 div#wrapper #header #gNavi ul {
-	width:920px;
+	/* width:920px; */
 	margin:0 auto;
 }
 div#wrapper #header #gNavi ul li {
@@ -71,12 +71,12 @@ div#wrapper #header #gNavi ul li.gN02 {background:url(../images/gNavi02_on.png);
 div#wrapper #header #gNavi ul li.gN03 {background:url(../images/gNavi03_on.png); width:137px;}
 div#wrapper #header #gNavi ul li.gN04 {background:url(../images/gNavi04_on.png); width:111px;} */
 div#wrapper #header .gNavi-sns {
-	position:absolute;
+	/* position:absolute; */
 	display: flex;
 	align-items: baseline;
-	bottom:20px;
-	left:820px;
-	width:507px;
+	/* bottom:20px;
+	left:820px; */
+	/* width:507px; */
 }
 div#wrapper #header .gNavi-sns li {
 	margin-left: 20px;
