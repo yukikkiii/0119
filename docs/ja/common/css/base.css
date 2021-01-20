@@ -395,6 +395,7 @@ div#footerArea address {
 	font-style:italic;
 	color:#F00;
 }
+
 .lang-change {position: absolute;top:0;right:0;}
 .lang-change a {display: inline-block; text-decoration: none !important;text-decoration: none;color: #fff !important;background-color: #000;padding: 10px 30px;font-size: 12px;}
 .lang-change a:visited {text-decoration: none;color: #fff !important;}
