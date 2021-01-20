@@ -141,12 +141,16 @@ div#wrapper #sideNavi ul li.sN02 {background:url(../images/sidebar02_on.gif); }
 div#wrapper #sideNavi ul li.sN03 {background:url(../images/sidebar03_on.gif); }
 div#wrapper #sideNavi ul li.sN04 {background:url(../images/sidebar04_on.gif); }
 div#wrapper #sideNavi ul li.sN05 {background:url(../images/sidebar05_on.gif); }
+div#wrapper #sideNavi ul li.sN06 {background:url(../images/sidebar06_on.gif); }
+div#wrapper #sideNavi ul li.sN07 {background:url(../images/sidebar07_on.gif); }
 
 #product01 #wrapper #sideNavi ul li.sN01 img { width:0px; height:0px; }
 #product02 #wrapper #sideNavi ul li.sN02 img { width:0px; height:0px; }
 #product03 #wrapper #sideNavi ul li.sN03 img { width:0px; height:0px; }
 #product04 #wrapper #sideNavi ul li.sN04 img { width:0px; height:0px; }
 #product05 #wrapper #sideNavi ul li.sN05 img { width:0px; height:0px; }
+#product06 #wrapper #sideNavi ul li.sN06 img { width:0px; height:0px; }
+#product07 #wrapper #sideNavi ul li.sN07 img { width:0px; height:0px; }
 
 div#wrapper #sideNavi ul li.h60 a {
 	height:60px!important;
