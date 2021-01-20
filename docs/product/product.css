@@ -130,9 +130,9 @@ td.w60 {
     .productFunction li.gray{background-color: gray;}
     .productFunction li.green {background-color: green;}
     .productFunction li.blue {background-color: #0070C0;}
-    .productFunction li.darkblue {background-color: darkblue;}
+    .productFunction li.darkblue {background-color: darkblue;color: #fff}
     .productFunction li.skyblue {background-color: skyblue;}
-    .productFunction li.skyblue {background-color: purple;}
+    .productFunction li.purple {background-color: purple;}
     .productFunction li.white {background-color: white;border: solid 1px #000;width: 43px;height: 43px;}
     .dataSheetBtn {text-align: center;}
 	.dataSheetBtn a {background-color: #000; color: white; font-weight: 900;padding: 15px 30px;text-decoration: none;font-size: 14px;    display: inline-block;}
