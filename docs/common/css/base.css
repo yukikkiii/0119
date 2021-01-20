@@ -47,7 +47,7 @@ div#wrapper #header #gNavi {
 	position:absolute;
 	display: flex;
 	top:74px;
-	left:330px;
+	right:0;
 	/* width:507px; */
 }
 div#wrapper #header #gNavi ul {
