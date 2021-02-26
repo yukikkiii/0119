@@ -124,9 +124,27 @@ div#rightBlock #mailForm {
 .border {
 	border:solid 1px #CCC;
 }
+.contact-phone-wrap {
+	display:flex;
+	align-items: center;
+}
+.contact-phone-wrap img {
+	height: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
 
 .contact-phoneNum {
     font-size: 18px;
-    padding-left: 10px;
     font-weight: 900;
+}
+
+.contact-email {
+	display:flex;
+	align-items: center;
+}
+.contact-email img {
+	height: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
