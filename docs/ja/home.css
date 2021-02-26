@@ -17,7 +17,7 @@ div#contentsArea .lead {
 	height: auto!important;
 	height: 206px;
 	background-color: #FFF;
-	padding:10px 20px 0 50px;
+	padding:10px 20px;
 	margin:0 0 1em 0;
 }
 div#contentsArea .lead img {
@@ -69,3 +69,4 @@ div#contentsArea #bannerArea .box ul li {
 .demo-li {display: flex;align-items: center;}
 .demo-video {position: relative;padding-left: 60px;text-align: center;line-height: 1.0;color: #03C !important;}
 .demo-video::before {content: "";position: absolute;width: 40px;height: 30px;left:15px;top: 50%; transform: translateY(-50%); background:url(images/youtube.png) no-repeat center center/ auto 100%;}
+

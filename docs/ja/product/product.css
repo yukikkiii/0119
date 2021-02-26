@@ -71,7 +71,7 @@ div#wrapper #mainArea #contentsArea .w710 ul.link02 li {
 	text-align: left;
 	font-weight: 600;
 	padding: 2px 8px;
-	font-size: 1.2em;
+	font-size: 14px;
 	border-right: 1px solid #CCC;
 	border-top: 1px solid #CCC;
 }
@@ -114,30 +114,68 @@ td.w60 {
 }
     .productBox li {list-style: inside;}
     .productDetail {display: flex;justify-content: space-between;margin-bottom: 50px;}
-    .productImg {position:relative;width: 250px;overflow: hidden;    border: solid 1px;}
-    .productImg img {position: absolute;width: 100%;top: 50%;left: 50%; transform: translate(-50%, -50%);}
-    .productImg img.height {height: 100%;width: auto;}
-    .profuctTable {flex:1;margin-left: 10px;}
+    .productImg {position:relative;width: 50%;overflow: hidden;  
+		/* padding: 0 50px;   */
+		/* border: solid 1px; */
+	}
+	.productImg img:hover {
+		transform: translate(-50%, -50%) scale(1.0);
+		cursor: pointer;
+	}
+	.productImg:before {
+		position: absolute;
+		bottom: 30px;
+		right: 20px;
+		z-index: 1;
+		content: "Sample";
+	}
+	.productImg:after {
+		position: absolute;
+		bottom: 20px;
+		right: 20px;
+		z-index: 1;
+		content: "Image";
+	}
+	
+    .productImg img {width: 100%;transition: all 0.3s;position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%) scale(0.9);
+	}
+	.small-img img {
+		height: 100%;
+		width: auto;
+	}
+    .profuctTable {flex:1;}
     .profuctTable table {width: 100% !important;}
     .profuctTable th, .profuctTable td {text-align: center;}
 
-    .productFunction {width: 400px;display: flex;flex-wrap: wrap;margin-bottom: 10px;align-items: center}
-    .productFunction li { margin-right: 10px;padding: 5px 10px;border-radius: 5px;color: #fff; margin-bottom: 5px;}
+    .productFunction {display: flex;flex-wrap: wrap;margin-bottom: 10px;align-items: center}
+    .productFunction li { margin-right: 10px;padding: 5px 10px;border-radius: 5px;color: #000; margin-bottom: 5px;}
     .productFunction li p {font-weight: 900;text-align: center}
-    .productFunction li.yellow {background-color:#e3bb19;}
-    /* .productFunction li.orange {background-color: orange;} */
-	.productFunction li.red {background-color: #e61c1c;}
-	.productFunction li.pink{background-color: #ff6767;}
-	/* .productFunction li.gray{background-color: gray;} */
-    .productFunction li.green {background-color: #09a753;}
-    .productFunction li.blue {background-color: #1a84ee;}
-    .productFunction li.darkblue {background-color: darkblue;}
-    .productFunction li.skyblue {background-color: skyblue;}
-    .productFunction li.purple {background-color: #b515e3;}
+	
+    .productFunction li.yellow {background-color:#FEFF47;}
+	.productFunction li.gray {background-color: #BFBFBF;}
+    .productFunction li.orange {background-color: #FFBF00;}
+	.productFunction li.red {background-color: #FF0102;}
+	.productFunction li.green {background-color: #00AF50;}
+	.productFunction li.purple {background-color:#70319F;color: #fff;}
+	.productFunction li.lightblue {background-color: #00AFEF;}
+	.productFunction li.skyblue {background-color: #0070C0;}
 	.productFunction li.white {background-color: white;border: solid 1px #000;}
+	.productFunction li.darkblue {background-color:#002060;color: #fff;}
+	.productFunction li.black {background-color: #000;color: #fff}
+	.productFunction li.blue {background-color:#0066FF; }
+    
+	
 	
     .dataSheetBtn {text-align: left;}
-	.dataSheetBtn a {background-color: #000; background-color: #dcdcdc;color: #575757;font-weight: 900;padding: 5px 30px;box-shadow: 2px 2px 2px rgba(0,0,0,0.1); text-decoration: none;font-size: 14px;    display: inline-block;}
-	.accessoriesImg {position:relative;width: 120px;overflow: hidden;margin-right: 10px;border: solid 1px }
+	.dataSheetBtn a {background-color: #333;transition: all 0.3s;
+		color: #fff;font-weight: 900;padding: 5px 30px;box-shadow: 2px 2px 2px rgba(0,0,0,0.1); text-decoration: none;font-size: 14px;    display: inline-block;}
+		.dataSheetBtn a:hover {
+			background: #ccc;color: #333;
+			
+		}
+	.accessoriesImg {position:relative;width: 120px;overflow: hidden;margin-right: 10px; }
 	.accessoriesImg img {position: absolute; width: 100%; top: 50%; left: 50%; transform: translate(-50%, -50%);}
 	.profuctTable-ttl {font-weight: 900;font-size: 23px;margin-bottom: 10px;}
