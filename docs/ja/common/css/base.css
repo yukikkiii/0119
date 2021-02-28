@@ -158,13 +158,13 @@ div#wrapper #sideNavi ul li a {
 	width:200px;
 	height:61px;
 }
-div#wrapper #sideNavi ul li.sN01 {background:url(../images/sidebar01_on.gif); }
-div#wrapper #sideNavi ul li.sN02 {background:url(../images/sidebar02_on.gif); }
-div#wrapper #sideNavi ul li.sN03 {background:url(../images/sidebar03_on.gif); }
-div#wrapper #sideNavi ul li.sN04 {background:url(../images/sidebar04_on.gif); }
-div#wrapper #sideNavi ul li.sN05 {background:url(../images/sidebar05_on.gif); }
-div#wrapper #sideNavi ul li.sN06 {background:url(../images/sidebar06_on.gif); }
-div#wrapper #sideNavi ul li.sN07 {background:url(../images/sidebar07_on.gif); }
+div#wrapper #sideNavi ul li.sN01 {background:url(../images/sidebar01_on.png); }
+div#wrapper #sideNavi ul li.sN02 {background:url(../images/sidebar02_on.png); }
+div#wrapper #sideNavi ul li.sN03 {background:url(../images/sidebar03_on.png); }
+div#wrapper #sideNavi ul li.sN04 {background:url(../images/sidebar04_on.png); }
+div#wrapper #sideNavi ul li.sN05 {background:url(../images/sidebar05_on.png); }
+div#wrapper #sideNavi ul li.sN06 {background:url(../images/sidebar06_on.png); }
+div#wrapper #sideNavi ul li.sN07 {background:url(../images/sidebar07_on.png); }
 
 #product01 #wrapper #sideNavi ul li.sN01 img { width:0px; height:0px; }
 #product02 #wrapper #sideNavi ul li.sN02 img { width:0px; height:0px; }
