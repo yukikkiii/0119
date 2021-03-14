@@ -294,6 +294,7 @@ div#footerArea address {
 }
 .lead-text {
 	display: flex;
+	align-items: center;
 }
 .lead-text ul {
 	font-weight:900;
