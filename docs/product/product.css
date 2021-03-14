@@ -118,6 +118,9 @@ td.w60 {
 		/* padding: 0 50px;   */
 		/* border: solid 1px; */
 	}
+	.productImg img {
+		z-index:1;
+	}
 	.productImg img:hover {
 		transform: translate(-50%, -50%) scale(3.0);
 		max-width: 280px;
