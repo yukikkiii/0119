@@ -113,3 +113,12 @@ div#contentsArea #bannerArea .box > ul > li > ul {
 }
 .demo-video::before {content: "";position: absolute;width: 40px;height: 30px;left:20px;top: 50%; transform: translateY(-50%); background:url(images/youtube.png) no-repeat center center/ auto 100%;}
 
+.youtube-list {
+	padding: 20px 0;
+	display: flex;
+	justify-content: space-between;
+}
+.youtube-list > iframe {
+	width: 49%;
+	height: 210px;
+}
