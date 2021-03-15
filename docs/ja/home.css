@@ -20,10 +20,13 @@ div#contentsArea .lead {
 	padding:10px 20px;
 	margin:0 0 1em 0;
 }
+.lead-text-img {
+	width:300px;
+}
 div#contentsArea .lead img {
 	display:block;
 	float:left;
-	width:293px;
+	width:100%;
 	margin:0 20px 0 0;
 }
 div#contentsArea .lead p {
@@ -62,17 +65,30 @@ div#contentsArea #bannerArea .box > ul {
 div#contentsArea #bannerArea .box > ul > li {
 	font-size:1.2em;
 	margin-bottom:1.0em;
-	background:url(images/banner_icon.gif) top left no-repeat;
 	padding:0 0 0 15px;
 	line-height: 1;
 	position: relative;
 }
+div#contentsArea #bannerArea .box > ul > li:before{
+	content: "";
+    position: absolute;
+    top: .4em;
+	top: 2px;
+    left: 0;
+    width: 10px;
+    height: 10px;
+    background-color: #000;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
 div#contentsArea #bannerArea .box > ul > li > a {
 	display: block;
-	font-size: 14px;
+	font-weight: 600;
+	font-size: 16px;
 }
 div#contentsArea #bannerArea .box > ul > li p {
-	margin-top: 10px;
+	margin-top: 15px;
 	margin-bottom: 10px;
 	font-size: 12px;
 	border-bottom: solid 1px;
@@ -80,6 +96,7 @@ div#contentsArea #bannerArea .box > ul > li p {
 }
 div#contentsArea #bannerArea .box > ul > li > ul {
 	margin-bottom: 10px;
+	
 }
 
 .demo-li {align-items: center;}
@@ -87,11 +104,21 @@ div#contentsArea #bannerArea .box > ul > li > ul {
 	position: absolute;
 	right:0;
 	 top:0;
+	 zoom:0.8;
 	 padding-left: 60px;
 	 text-align: center;
 	 line-height: 1.0;
 	 color: #03C !important;
 	 font-size: 12px !important;
 }
-.demo-video::before {content: "";position: absolute;width: 40px;height: 30px;left:15px;top: 50%; transform: translateY(-50%); background:url(images/youtube.png) no-repeat center center/ auto 100%;}
+.demo-video::before {content: "";position: absolute;width: 40px;height: 30px;left:20px;top: 50%; transform: translateY(-50%); background:url(images/youtube.png) no-repeat center center/ auto 100%;}
 
+.youtube-list {
+	padding: 20px 0;
+	display: flex;
+	justify-content: space-between;
+}
+.youtube-list > iframe {
+	width: 49%;
+	height: 210px;
+}
