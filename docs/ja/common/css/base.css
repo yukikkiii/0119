@@ -24,11 +24,25 @@ Last Modified: 2013-**-**
 
 ------------------------------------------------------------------ */
 
+.header-wrap {
+	background: url(../images/bg.gif) repeat-x #f0f4f7;
+	position: fixed;
+	z-index: 1000;
+	width: 100%;
+	left:0;
+}
+/* -----------------------------------------------------------------
+
+#02　レイアウト　ヘッダー
+
+------------------------------------------------------------------ */
+
 div#wrapper #header {
 	width:976px;
-	margin:0 auto 30px;
+	margin:0 auto;
 	height:120px;
 	position:relative;
+
 }
 div#wrapper #header .logo {
 	position:absolute;
@@ -146,7 +160,7 @@ div#wrapper #mainArea {
 
 div#wrapper #sideNavi {
 	width:200px;
-	margin:0 10px 0 0;
+	margin:150px 10px 0 0;
 	float:left;
 }
 div#wrapper #sideNavi ul {
@@ -188,7 +202,7 @@ div#wrapper #sideNavi ul li.h60 a {
 div#wrapper #mainArea #contentsArea {
 	width:750px;
 	float:right;
-	margin:0 0 5em 0;
+	margin:150px 0 5em 0;
 	-moz-border-radius: 0 0 2px 2px;
 	-webkit-border-radius: 0 0 2px 2px;
 	border-radius: 0 0 2px 2px;
