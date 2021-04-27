@@ -154,6 +154,8 @@ div#wrapper #mainArea {
 ------------------------------------------------------------------ */
 
 div#wrapper #sideNavi {
+	position: fixed;
+	top: 0;
 	width:200px;
 	margin:150px 10px 0 0;
 	float:left;

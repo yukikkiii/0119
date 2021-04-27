@@ -188,3 +188,8 @@ td.w60 {
 	.accessoriesImg:hover {overflow: visible;}
 	.accessoriesImg img {position: absolute; width: 100%; top: 50%; left: 50%; transform: translate(-50%, -50%);}
 	.profuctTable-ttl {font-weight: 900;font-size: 23px;margin-bottom: 10px;}
+
+	#product06 .accessories-bottom-table tr:nth-child(2n - 1) {
+		color: gray
+
+	}
