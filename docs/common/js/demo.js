@@ -1,5 +1,12 @@
 jQuery(function(){
 	var url = location.href;
+	if (url.indexOf("product") != -1){
+		$(".link li a").each(function(){
+			$href = $(this).attr("href");
+			$(this).attr("data", $href);
+			$(this).attr("href", "javascript:void(0);");
+		});
+	}
 	if (url.indexOf("product") != -1 && url.indexOf("#") != -1) {
 
 		var now =  $("#" + url.split("#")[1]).offset().top;
@@ -11,6 +18,19 @@ jQuery(function(){
 			queue : false
 		});
 	}
+	$(".link li a").click(function(){
+		var href = $(this).attr("data");
+		console.log(href);
+		var now =  $(href).offset().top;
+		var move = now - 120;
+		console.log(move);
+		$("html,body").animate({
+			scrollTop : move + "px"
+		}, {
+			queue : false
+		});
+	
+	})
 });
 
 var DEMO_adjustContainerHeight = function(){
