@@ -159,6 +159,7 @@ div#wrapper #sideNavi {
 	width:200px;
 	margin:0px 10px 0 0;
 	float:left;
+	z-index: 1000;
 }
 div#wrapper #sideNavi > div {
 	position: fixed;
