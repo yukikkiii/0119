@@ -1,4 +1,16 @@
 jQuery(function(){
+	var url = location.href;
+	if (url.indexOf("product") != -1 && url.indexOf("#") != -1) {
+
+		var now =  $("#" + url.split("#")[1]).offset().top;
+		var move = now - 200;
+		console.log(move);
+		$("html,body").animate({
+			scrollTop : move + "px"
+		}, {
+			queue : false
+		});
+	}
 });
 
 var DEMO_adjustContainerHeight = function(){
@@ -37,5 +49,7 @@ var DEMO_dynamicLayout = function(){
 		return false;
 	});
 }
+
+
 
 

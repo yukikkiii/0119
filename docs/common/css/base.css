@@ -161,12 +161,17 @@ div#wrapper #sideNavi {
 	float:left;
 }
 div#wrapper #sideNavi > div {
-	display: none;
+	position: fixed;
 }
 div#wrapper #sideNavi ul {
 	position: initial !important;
 	margin:0 0 1em 0;
 	width:200px;
+}
+div#wrapper #sideNavi ul li{
+	display:block;
+	width:200px;
+	height:61px;
 }
 div#wrapper #sideNavi ul li a {
 	display:block;

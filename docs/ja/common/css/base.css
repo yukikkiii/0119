@@ -15,15 +15,10 @@ Last Modified: 2013-**-**
 #wrapper {
 	width:976px;
 	margin:0 auto;
+	
 	overflow:hidden;
+	
 }
-
-/* -----------------------------------------------------------------
-
-#02　レイアウト　ヘッダー
-
------------------------------------------------------------------- */
-
 .header-wrap {
 	background: url(../images/bg.gif) repeat-x #f0f4f7;
 	position: fixed;
@@ -160,14 +155,23 @@ div#wrapper #mainArea {
 
 div#wrapper #sideNavi {
 	position: fixed;
-	top: 0;
+	top: 150px;
 	width:200px;
-	margin:150px 10px 0 0;
+	margin:0px 10px 0 0;
 	float:left;
 }
+div#wrapper #sideNavi > div {
+	position: fixed;
+}
 div#wrapper #sideNavi ul {
+	position: initial !important;
 	margin:0 0 1em 0;
 	width:200px;
+}
+div#wrapper #sideNavi ul li{
+	display:block;
+	width:200px;
+	height:61px;
 }
 div#wrapper #sideNavi ul li a {
 	display:block;
@@ -469,13 +473,4 @@ div#footerArea address {
 .kokki img {
 	width: 30px;
 	margin-right: 10px;
-}
-
-#sideNavi {
-	position: fixed;
-	top: 150px;
-}
-#sideNavi > div {
-	position: relative !important;
-
 }
