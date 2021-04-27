@@ -31,6 +31,18 @@ jQuery(function(){
 		});
 	
 	})
+	$(window).scroll(function(){
+		var obj_t_pos = $("#footerArea").offset().top;
+		var scr_count = $(document).scrollTop() + (window.innerHeight / 1.2);
+
+		if (scr_count > obj_t_pos) {
+
+			$("#sideNavi").fadeOut(100);
+		} else {
+			$("#sideNavi").fadeIn(100);
+		}
+	})
+	
 });
 
 var DEMO_adjustContainerHeight = function(){
